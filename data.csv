@@ -1,27 +1,63 @@
-Name,Age,City
-Alice,30,New York
-Bob,25,Los Angeles
-Charlie,35,Chicago
-David,28,Houston
-Eve,22,Phoenix
-Fiona,33,Philadelphia
-Gerald,27,San Francisco
-Hannah,29,Miami
-Ian,31,Dallas
-Jane,24,Atlanta
-Kevin,26,Boston
-Liam,,Seattle
-Mia,23,Denver
-Noah,34,
-Olivia,32,Orlando
-Pam,,
-Quinn,28,Austin
-Ryan,30,Detroit
-Sophia,27,San Diego
-Tom,29,Portland
-Uma,25,Phoenix
-Vince,32,Los Angeles
-Wendy,31,San Jose
-Xander,,Columbus
-Yasmin,29,Houston
-Zoe,26,Phoenix
+order_id,customer_id,product,category,quantity,price,total,date,city
+1001,C001,Laptop 15",Electronics,1,850,850,2024-01-03,Bogotá
+1002,C002,Smartphone X,Electronics,2,600,1200,2024-01-03,Medellín
+1003,C003,Headphones,Electronics,1,80,80,2024-01-04,Cali
+1004,C004,Office Chair,Furniture,1,150,150,2024-01-04,Bogotá
+1005,C005,Notebook A5,Stationery,5,3,15,2024-01-05,Barranquilla
+1006,C006,Mechanical Keyboard,Electronics,1,95,95,2024-01-05,Cali
+1007,C007,Smart TV 55",Electronics,1,1200,1200,2024-01-06,Medellín
+1008,C008,Desk,Furniture,1,210,210,2024-01-06,Bogotá
+1009,C009,Mouse Wireless,Electronics,2,25,50,2024-01-06,Cali
+1010,C010,Backpack Pro,Accessories,1,40,40,2024-01-07,Pereira
+1011,C011,Smartwatch S,Electronics,1,180,180,2024-01-07,Medellín
+1012,C012,Gaming Console,Electronics,1,460,460,2024-01-08,Bogotá
+1013,C013,USB Cable,Electronics,3,5,15,2024-01-08,Cali
+1014,C014,Standing Desk,Furniture,1,320,320,2024-01-08,Medellín
+1015,C015,Laptop 15",Electronics,1,850,850,2024-01-09,Bogotá
+1016,C016,Notebook A5,Stationery,10,3,30,2024-01-09,Barranquilla
+1017,C017,Headphones,Electronics,1,80,80,2024-01-09,Medellín
+1018,C018,Smartphone X,Electronics,1,600,600,2024-01-10,Cali
+1019,C019,Office Chair,Furniture,2,150,300,2024-01-10,Bogotá
+1020,C020,Mouse Wireless,Electronics,1,25,25,2024-01-10,Bucaramanga
+1021,C021,Monitor 27",Electronics,1,290,290,2024-01-11,Bogotá
+1022,C022,Desk,Furniture,1,210,210,2024-01-11,Manizales
+1023,C023,Smart TV 55",Electronics,1,1200,1200,2024-01-12,Cali
+1024,C024,Notebook A5,Stationery,4,3,12,2024-01-12,Medellín
+1025,C025,Mechanical Keyboard,Electronics,1,95,95,2024-01-12,Bogotá
+1026,C026,USB Cable,Electronics,5,5,25,2024-01-13,Pereira
+1027,C027,Gaming Console,Electronics,1,460,460,2024-01-13,Medellín
+1028,C028,Office Chair,Furniture,1,150,150,2024-01-14,Cali
+1029,C029,Desk,Furniture,2,210,420,2024-01-14,Bogotá
+1030,C030,Standing Desk,Furniture,1,320,320,2024-01-15,Medellín
+1031,C031,Laptop 15",Electronics,1,850,850,2024-01-15,Bogotá
+1032,C032,Backpack Pro,Accessories,2,40,80,2024-01-15,Cali
+1033,C033,Smartwatch S,Electronics,1,180,180,2024-01-16,Bogotá
+1034,C034,Smartphone X,Electronics,1,600,600,2024-01-16,Medellín
+1035,C035,Monitor 27",Electronics,1,290,290,2024-01-17,Pereira
+1036,C036,Mouse Wireless,Electronics,1,25,25,2024-01-17,Cali
+1037,C037,Desk,Furniture,1,210,210,2024-01-17,Bogotá
+1038,C038,Office Chair,Furniture,1,150,150,2024-01-18,Medellín
+1039,C039,Smart TV 55",Electronics,1,1200,1200,2024-01-18,Cali
+1040,C040,Notebook A5,Stationery,6,3,18,2024-01-19,Bogotá
+1041,C041,USB Cable,Electronics,2,5,10,2024-01-19,Medellín
+1042,C042,Headphones,Electronics,1,80,80,2024-01-19,Pereira
+1043,C043,Laptop 15",Electronics,1,850,850,2024-01-20,Bucaramanga
+1044,C044,Smartphone X,Electronics,2,600,1200,2024-01-20,Cali
+1045,C045,Mechanical Keyboard,Electronics,1,95,95,2024-01-21,Bogotá
+1046,C046,Gaming Console,Electronics,1,460,460,2024-01-21,Medellín
+1047,C047,Desk,Furniture,1,210,210,2024-01-21,Pereira
+1048,C048,Office Chair,Furniture,1,150,150,2024-01-22,Cali
+1049,C049,Smartwatch S,Electronics,1,180,180,2024-01-22,Bogotá
+1050,C050,Monitor 27",Electronics,1,290,290,2024-01-23,Medellín
+1051,C051,,Electronics,1,290,290,2024-01-23,Bogotá
+1052,,Desk,Furniture,1,210,210,2024-01-24,Cali
+1053,C053,Mouse Wireless,Electronics,,25,,2024-01-24,Barranquilla
+1054,C054,Smart TV 55",Electronics,1,,1200,2024-01-24,Medellín
+1055,C055,Notebook A5,Stationery,4,3,12,,Bucaramanga
+1056,C056,Headphones,,1,80,80,2024-01-25,Cali
+1057,C057,"USB Cable, Premium",Electronics,2,8,16,2024-01-25,Bogotá   # Coma dentro de comillas
+1058,C058,Office Chair,Furniture,1,150,150,2024-01-26,
+1059,C059,Desk,Furniture,1,210,210,2024-01-26,Medellín
+1060,C060,Backpack Pro,Accessories,1,40,40,2024-01-26,Bogotá
+1061,C010,Backpack Pro,Accessories,1,40,40,2024-01-07,Pereira
+1062,C010,Backpack Pro,Accessories,1,40,40,2024-01-07,Pereira
